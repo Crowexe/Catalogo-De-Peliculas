@@ -41,15 +41,20 @@ public class Miniatura {
             imagen=null;
         System.gc();
     }
-    /*public void setMiniatura(Pelicula pelicula){
-        pelicula.agregarMiniatura();
+    
+    public void setMiniatura(String path){
+        this.path=path;
     }
-    public void setMiniatura(AdministradorDeFicha ficha){
-        ficha.pelicula.agregarMiniatura();
+    
+    public String getMiniatura(){
+        return path;
+    }
+    /*public void setMiniatura(AdministradorDeFicha administradorDeFicha){
+        this()
     }*/
      @Override
 	public String toString() {
-		return imagen;
+		return path;
     } 
     
 }

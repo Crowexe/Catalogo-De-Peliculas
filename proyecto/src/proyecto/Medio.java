@@ -29,6 +29,7 @@ public class Medio {
             tipo=null;
         System.gc();
     }
+    
      @Override
 	public String toString() {
 		return tipo;

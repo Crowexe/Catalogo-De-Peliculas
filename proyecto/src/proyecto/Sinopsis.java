@@ -33,17 +33,13 @@ public class Sinopsis {
             resumen=null;
         System.gc();
     }
-    public String mostrarResumen(){
-           return resumen;
+    public void setSinopsis(String resumen){
+        this.resumen=resumen;
     }
-    /*public void producir(Pelicula pelicula){
-        pelicula.agregarSinopsis();
+    public String getSinopsis(){
+        return resumen;
     }
-    public void producir(AdministradorDeFicha ficha){
-        ficha.pelicula.agregarSinopsis();
-        
-    }*/
-     @Override
+    @Override
 	public String toString() {
 		return resumen;
     } 

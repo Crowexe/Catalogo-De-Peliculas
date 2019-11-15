@@ -35,7 +35,13 @@ public class Titulo {
             ficha.pelicula.agregarTitulo();    
         }
     */
+     public void setTitulo(String Titulo){
+        this.nombre=nombre;
+    }
     
+    public String getTitulo(){
+        return nombre;
+    }
      @Override
 	public String toString() {
 		return nombre;

@@ -35,12 +35,15 @@ public class GeneroPelicula {
     public void clasificar(AdministradorDeFicha ficha){
         ficha.pelicula.agregarGenero();
     }*/
+    public void setGenero(String genero){
+        this.genero=genero;
+    }
+    
+    public String getGenero(){
+        return genero;
+    }
      @Override
 	public String toString() {
 		return genero;
-    }
-        
-    public String getGeneroPelicula(){
-        return genero;
     }
 }

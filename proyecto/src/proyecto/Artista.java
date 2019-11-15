@@ -41,7 +41,7 @@ public class Artista{
 		Artista artista=(Artista)objeto;
 		return disciplina.equals(artista.disciplina);
 	}
-     public void destuir(){
+     public void destruir(){
              if(disciplina!=null)
                 disciplina=null;
             System.gc();

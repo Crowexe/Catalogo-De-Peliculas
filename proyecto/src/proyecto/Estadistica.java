@@ -6,11 +6,11 @@ package proyecto;
  * @author Luis
  */
 public class Estadistica {
-    private String calificacion;
+    private int calificacion;
     public Estadistica(){
-        calificacion=new String();
+        calificacion = 0;
     }
-     public Estadistica(String calificacion){
+     public Estadistica(int calificacion){
          this.calificacion = calificacion;
     }
       public Estadistica(Estadistica estadistica){
@@ -22,12 +22,19 @@ public class Estadistica {
 		if(!(objeto instanceof Estadistica))
 			return false;
 		Estadistica estadistica=(Estadistica)objeto;
-		return calificacion.equals(estadistica.calificacion);
+		return calificacion==estadistica.calificacion;
 	}
     public void destruir(){
-        if(calificacion!=null)
-            calificacion=null;
+        if(calificacion!=0)
+            calificacion=0;
         System.gc();
+    }
+    public void setEstadistica(int calificacion){
+        this.calificacion=calificacion;
+    }
+    
+    public int getEstadistica(){
+        return calificacion;
     }
    /*public void generarEstadistica(Pelicula pelicula){
        pelicula.mostrarEstadistica();
@@ -37,6 +44,25 @@ public class Estadistica {
    }*/
      @Override
 	public String toString() {
-		return calificacion;
+                switch(calificacion){
+                    case 1: 
+                        return "Muy mala";
+                        
+                    case 2: 
+                        return "Mala";
+                            
+                    case 3: 
+                        return "Media";
+                      
+                    case 4: 
+                        return "Buena";
+                    
+                    case 5: 
+                        return "Muy buena";
+                    
+                    default: 
+                        return "No es parte de la escala";
+                    
+                }
     } 
 }

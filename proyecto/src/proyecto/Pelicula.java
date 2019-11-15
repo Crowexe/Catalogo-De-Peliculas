@@ -69,7 +69,7 @@ public class Pelicula {
 
     public void destruir() {
         if (artista != null) {
-            artista.destuir();
+            artista.destruir();
         }
         if (miniatura != null) {
             miniatura.destruir();
