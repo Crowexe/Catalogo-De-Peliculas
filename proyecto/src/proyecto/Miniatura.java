@@ -41,12 +41,12 @@ public class Miniatura {
             imagen=null;
         System.gc();
     }
-    public void setMiniatura(Pelicula pelicula){
+    /*public void setMiniatura(Pelicula pelicula){
         pelicula.agregarMiniatura();
     }
     public void setMiniatura(AdministradorDeFicha ficha){
         ficha.pelicula.agregarMiniatura();
-    }
+    }*/
      @Override
 	public String toString() {
 		return imagen;

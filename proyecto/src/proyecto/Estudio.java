@@ -32,13 +32,13 @@ public class Estudio {
     public String mostrarNombre(){
            return nombre;
     }
-    public void producir(Pelicula pelicula){
+    /*public void producir(Pelicula pelicula){
         pelicula.agregarEstudio();
     }
     public void producir(AdministradorDeFicha ficha){
         ficha.pelicula.agregarEstudio();
         
-    }
+    }*/
      @Override
 	public String toString() {
 		return nombre;

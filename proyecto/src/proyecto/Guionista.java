@@ -21,7 +21,7 @@ public class Guionista extends Artista{
       
     public void crear(Pelicula pelicula){
         crear();
-        switch(pelicula.getGeneroPelicula().getGeneroPelicula()){
+        switch(pelicula.getGenero()){
             case "terror":
                 System.out.println("Estoy creando un guion de terror");
                 break;
@@ -51,12 +51,12 @@ public class Guionista extends Artista{
             nombre=null;
         System.gc();
     }
-    public void escribirGuion(Pelicula pelicula){
+    /*public void escribirGuion(Pelicula pelicula){
         pelicula.agregarGuionista();
     }
     public void escribirGuion(AdministradorDeFicha ficha){
        ficha.pelicula.agregarGuionista();
-    }
+    }*/
     
     
      @Override

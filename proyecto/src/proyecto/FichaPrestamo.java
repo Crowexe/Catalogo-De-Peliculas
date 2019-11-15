@@ -42,12 +42,12 @@ public class FichaPrestamo {
        		System.gc();
     	}
         
-    public void generarFicha(Pelicula pelicula){
+    /*public void generarFicha(Pelicula pelicula){
         System.out.println("La"+pelicula.mostarTitulo()+"se le presto a"+nombrePrestado);
     }
     public void generarFicha(AdministradorDeFicha ficha){
          System.out.println("la"+ficha.pelicula.toString()+"se le preseto a"+nombrePrestado);
-    }
+    }*/
      	@Override
         public String toString(){
 			return " ";

@@ -29,12 +29,12 @@ public class Estadistica {
             calificacion=null;
         System.gc();
     }
-   public void generarEstadistica(Pelicula pelicula){
+   /*public void generarEstadistica(Pelicula pelicula){
        pelicula.mostrarEstadistica();
    }
    public void generarEstadistica(AdministradorDeFicha ficha){
         ficha.pelicula.mostrarEstadistica();
-   }
+   }*/
      @Override
 	public String toString() {
 		return calificacion;

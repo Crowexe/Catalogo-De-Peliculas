@@ -28,14 +28,13 @@ public class Titulo {
             nombre=null;
         System.gc();
     }
-    public void setTitulo(Pelicula pelicula){
+    /*public void setTitulo(Pelicula pelicula){
         pelicula.agregarTitulo();
     }
-    public void setTitulo(AdministradorDeFicha ficha){
-        ficha.pelicula.agregarTitulo();
-               
+        public void setTitulo(AdministradorDeFicha ficha){
+            ficha.pelicula.agregarTitulo();    
         }
-
+    */
     
      @Override
 	public String toString() {

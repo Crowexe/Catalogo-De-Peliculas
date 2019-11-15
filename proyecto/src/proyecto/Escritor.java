@@ -52,12 +52,12 @@ public class Escritor extends Artista{
         	if(nombre!=null) nombre=null;
        		System.gc();
     	}
-        public void escribir(Pelicula pelicula){
+        /*public void escribir(Pelicula pelicula){
             pelicula.agregarEscritor();
         }
         public void escribir(AdministradorDeFicha ficha){
             ficha.pelicula.agregarEscritor();
-        }
+        }*/
      	@Override
 		public String toString()
 		{

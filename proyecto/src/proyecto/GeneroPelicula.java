@@ -29,12 +29,12 @@ public class GeneroPelicula {
             genero=null;
         System.gc();
     }
-    public void clasificar(Pelicula pelicula){
+    /*public void clasificar(Pelicula pelicula){
         pelicula.agregarGenero();
     }
     public void clasificar(AdministradorDeFicha ficha){
         ficha.pelicula.agregarGenero();
-    }
+    }*/
      @Override
 	public String toString() {
 		return genero;

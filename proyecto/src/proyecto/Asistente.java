@@ -37,14 +37,14 @@ public class Asistente {
 			}
         		System.gc();
     		}
-        public void agregarDatos(Pelicula pelicula){
+        /*public void agregarDatos(Pelicula pelicula){
             pelicula.agregarDato();
         
         }
         public void agregarDatos(AdministradorDeFicha ficha){
             ficha.pelicula.agregarDato();
         
-        }
+        }*/
         
         @Override
 		public String toString() 

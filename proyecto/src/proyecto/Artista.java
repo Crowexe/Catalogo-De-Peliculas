@@ -46,13 +46,13 @@ public class Artista{
                 disciplina=null;
             System.gc();
      }
-     public void setArtista(Pelicula pelicula){
+     /*public void setArtista(Pelicula pelicula){
          pelicula.agregarArtista();
      
      }
      public void setArtista(AdministradorDeFicha ficha){
          ficha.pelicula.agregarArtista();     
-     }
+     }*/
      public String toString() {
             String string;
             string="disciplina:"+disciplina;

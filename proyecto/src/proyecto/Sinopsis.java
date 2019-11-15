@@ -36,17 +36,17 @@ public class Sinopsis {
     public String mostrarResumen(){
            return resumen;
     }
-    public void producir(Pelicula pelicula){
+    /*public void producir(Pelicula pelicula){
         pelicula.agregarSinopsis();
     }
     public void producir(AdministradorDeFicha ficha){
         ficha.pelicula.agregarSinopsis();
         
-    }
+    }*/
      @Override
 	public String toString() {
 		return resumen;
     } 
     
 }
-}
+

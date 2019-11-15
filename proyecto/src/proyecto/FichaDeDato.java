@@ -45,13 +45,13 @@ public class FichaDeDato {
         System.gc();
     }
 
-    public void generarFicha() {
+    /*public void generarFicha() {
         this.plantilla = pelicula.mostarTitulo() + "\n" + pelicula;
     }
 
     public void generarFicha(String ficha) {
         this.plantilla = ficha;
-    }
+    }*/
 
     @Override
     public String toString() {
