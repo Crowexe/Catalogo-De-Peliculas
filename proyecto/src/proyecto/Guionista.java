@@ -54,7 +54,7 @@ public class Guionista extends Artista{
     public void escribirGuion(Pelicula pelicula){
         pelicula.agregarGuionista();
     }
-    public void escribirGuion(Fichero ficha){
+    public void escribirGuion(AdministradorDeFicha ficha){
        ficha.pelicula.agregarGuionista();
     }
     

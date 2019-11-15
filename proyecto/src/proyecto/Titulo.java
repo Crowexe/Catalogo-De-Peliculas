@@ -31,7 +31,7 @@ public class Titulo {
     public void setTitulo(Pelicula pelicula){
         pelicula.agregarTitulo();
     }
-    public void setTitulo(Fichero ficha){
+    public void setTitulo(AdministradorDeFicha ficha){
         ficha.pelicula.agregarTitulo();
                
         }

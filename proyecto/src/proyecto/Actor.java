@@ -20,7 +20,7 @@ public class Actor extends Artista {
     }
     public void crear(Pelicula pelicula){
         crear();
-        switch(pelicula.getGeneroPelicula().getGeneroPelicula()){
+        switch(pelicula.getGenero()) {
             case "terror":
                 System.out.println("Estoy creando un performance de terror");
                 break;
@@ -50,7 +50,7 @@ public class Actor extends Artista {
         System.gc();
     }
     public void actuar(Pelicula pelicula){
-            System.out.println(nombre+"actua en"+pelicula.mostarTitulo());
+            System.out.println(nombre+"actua en"+pelicula.getTitulo());
             
     }
     public void actuar(Estudio estudio){

@@ -1,13 +1,14 @@
 
 package proyecto;
 
+import java.io.Serializable;
 import java.util.LinkedList;
 /**
  *
  * @author Ximena
  */
 //insertar aquí método "get pelicula" 
-public class AdministradorDeFicha {
+public class AdministradorDeFicha implements Serializable {
     private Pelicula pelicula;
     private LinkedList<FichaDeDato> listaDePeliculas;
     

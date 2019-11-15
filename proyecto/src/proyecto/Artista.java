@@ -50,7 +50,7 @@ public class Artista{
          pelicula.agregarArtista();
      
      }
-     public void setArtista(Fichero ficha){
+     public void setArtista(AdministradorDeFicha ficha){
          ficha.pelicula.agregarArtista();     
      }
      public String toString() {

@@ -6,11 +6,11 @@ package proyecto;
  */
 
 public class Asistente {
-    private Fichero fichero;
+    private AdministradorDeFicha fichero;
 	
 	public Asistente()
 	{
-		this.fichero = new Fichero();
+		this.fichero = new AdministradorDeFicha();
 	}
 	public Asistente(String nombre)
 	{
@@ -41,7 +41,7 @@ public class Asistente {
             pelicula.agregarDato();
         
         }
-        public void agregarDatos(Fichero ficha){
+        public void agregarDatos(AdministradorDeFicha ficha){
             ficha.pelicula.agregarDato();
         
         }

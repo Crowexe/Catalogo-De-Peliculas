@@ -22,7 +22,7 @@ public class Escritor extends Artista{
         
         public void crear(Pelicula pelicula){
         crear();
-        switch(pelicula.getGeneroPelicula().getGeneroPelicula()){
+        switch(pelicula.getGenero()){
             case "terror":
                 System.out.println("Estoy creando una historia de terror");
                 break;
@@ -55,7 +55,7 @@ public class Escritor extends Artista{
         public void escribir(Pelicula pelicula){
             pelicula.agregarEscritor();
         }
-        public void escribir(Fichero ficha){
+        public void escribir(AdministradorDeFicha ficha){
             ficha.pelicula.agregarEscritor();
         }
      	@Override

@@ -44,7 +44,7 @@ public class Miniatura {
     public void setMiniatura(Pelicula pelicula){
         pelicula.agregarMiniatura();
     }
-    public void setMiniatura(Fichero ficha){
+    public void setMiniatura(AdministradorDeFicha ficha){
         ficha.pelicula.agregarMiniatura();
     }
      @Override

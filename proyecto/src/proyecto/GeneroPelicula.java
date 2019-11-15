@@ -32,7 +32,7 @@ public class GeneroPelicula {
     public void clasificar(Pelicula pelicula){
         pelicula.agregarGenero();
     }
-    public void clasificar(Fichero ficha){
+    public void clasificar(AdministradorDeFicha ficha){
         ficha.pelicula.agregarGenero();
     }
      @Override

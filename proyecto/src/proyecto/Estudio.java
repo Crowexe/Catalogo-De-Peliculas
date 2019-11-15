@@ -35,7 +35,7 @@ public class Estudio {
     public void producir(Pelicula pelicula){
         pelicula.agregarEstudio();
     }
-    public void producir(Fichero ficha){
+    public void producir(AdministradorDeFicha ficha){
         ficha.pelicula.agregarEstudio();
         
     }

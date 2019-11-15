@@ -7,7 +7,7 @@ package proyecto;
 public class Proyecto {
 
     public static void main(String[] args) {
-        Fichero fichero=new Fichero();
+        AdministradorDeFicha administradorDeFicha=new AdministradorDeFicha();
         
     }
     

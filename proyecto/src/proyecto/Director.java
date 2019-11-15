@@ -21,7 +21,7 @@ public class Director extends Artista{
     }
     public void crear(Pelicula pelicula){
         crear();
-        switch(pelicula.getGeneroPelicula().getGeneroPelicula()){
+        switch(pelicula.getGenero()){
             case "terror":
                 System.out.println("Estoy creando una obra audiovisual de terror");
                 break;
@@ -51,7 +51,7 @@ public class Director extends Artista{
     }
     public void trabajaEn(Pelicula pelicula){
             
-        System.out.println("El"+nombre+"trabaja en"+pelicula.mostarTitulo());
+        System.out.println("El"+nombre+"trabaja en"+pelicula.getTitulo());
             
     }
     public void trabajaEn(Estudio estudio){

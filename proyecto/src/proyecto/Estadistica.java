@@ -32,7 +32,7 @@ public class Estadistica {
    public void generarEstadistica(Pelicula pelicula){
        pelicula.mostrarEstadistica();
    }
-   public void generarEstadistica(Fichero ficha){
+   public void generarEstadistica(AdministradorDeFicha ficha){
         ficha.pelicula.mostrarEstadistica();
    }
      @Override
